@@ -114,6 +114,14 @@ text-decoration: none;
     column-gap: 40px; 
 }
 
+@media (max-width: 750px) {
+    .section2-container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    }
+}
+
 .item1 {
     width: 400px;
     height: 320px;
@@ -298,7 +306,7 @@ text-decoration: none;
     width: 18px;
     height: 2px;
     display: inline-block;
-    background-color: #fff;
+    background-color: #FCC21B;
     top: 10%;
     right: 0;
   }
@@ -308,7 +316,7 @@ text-decoration: none;
     position: absolute;
     width: 18px;
     height: 2px;
-    background-color: #fff;
+    background-color: #FCC21B;
     top: 0.5rem;
     right: 0;
   }
@@ -318,7 +326,7 @@ text-decoration: none;
     position: absolute;
     width: 18px;
     height: 2px;
-    background-color: #fff;
+    background-color: #FCC21B;
     top: 1rem;
     right: 0;
   }
