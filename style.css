@@ -24,6 +24,13 @@ header {
     justify-content: space-between;
 }
 
+@media (max-width: 750px) {
+
+    .header-container ul {
+        display: none;
+    }
+}
+
 .header-container ul li {
     list-style-type: none;
     margin-right: 3%;
@@ -42,6 +49,13 @@ text-decoration: none;
 .cart {
     background: #372D23;
     border: none;  
+}
+
+@media (max-width: 750px) {
+
+    .cart {
+        display: none;
+    }
 }
 
 .section1 {
@@ -269,7 +283,15 @@ text-decoration: none;
     height: 25px;
     position: relative;
     background: #372D23;
+    display: none;
   }
+
+  @media (max-width: 750px) {
+
+    #burgerMenu {
+        display: block;
+    }
+}
   
    #burgerMenu span {
     position: absolute;
